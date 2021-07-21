@@ -32,7 +32,7 @@ void Logic::choiceAlert(e_type computer) {
 
 // battle : logic
 
-result Logic::battle(e_type player, e_type computer) {
+e_result Logic::battle(e_type player, e_type computer) {
 	this->choiceAlert(computer);
 	if (player == scissors) {
 		cout << "Your choice: scissors." << endl << endl;
