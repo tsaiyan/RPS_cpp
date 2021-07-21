@@ -19,7 +19,7 @@
 
 using namespace::std;
 
-enum result {
+enum e_result {
 	win,
 	lose,
 	draw,
@@ -39,7 +39,7 @@ private:
 	void choiceAlert(e_type computer);
 public:
 	// battle logic
-	result battle(e_type one, e_type two);
+	e_result battle(e_type one, e_type two);
 };
 
 #endif /* Logic_hpp */
